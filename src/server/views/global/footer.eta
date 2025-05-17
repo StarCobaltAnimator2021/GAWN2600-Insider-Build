@@ -1,0 +1,9 @@
+<footer>
+	<nav id="foot-left">
+		<a>Version <%= it.env.WRAPPER_VER %></a>
+		<a href="/settings">Settings</a>
+	</nav>
+
+	<nav id="foot-right"></nav>
+		<a><%= "Evaluation copy. Build 26052.ge_release.250226-0730" %></a>
+</footer>

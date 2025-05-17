@@ -12846,12 +12846,6 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="lie_down"/>
         </action>
-        <action id="on_knees_legs_bent" name="Hands on knees - legs bent" loop="Y" totalframe="1" enable="Y" category="poses" is_motion="N">
-            <selection type="facial" facial_id="head_neutral"/>
-            <selection type="lower_body" state_id="laugh"/>
-            <selection type="skeleton" state_id="stand"/>
-            <selection type="upper_body" state_id="sit"/>
-        </action>
         <action id="idle" name="Idle" loop="Y" totalframe="1" enable="Y" category="poses" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="default"/>

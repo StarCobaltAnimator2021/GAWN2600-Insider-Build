@@ -1,5 +1,5 @@
 :: License: MIT
-title GoAniWayneNathaniel2600 Preinstallation Environment (Initializing...)
+title GoAniWayneNathaaniel2600 Preinstallation Environment (Initializing...)
 
 ::::::::::::::::::::
 :: Initialization ::
@@ -19,7 +19,7 @@ pushd "%~dp0"
 
 :: Initiate
 echo:
-echo GoAniWayneNathaniel2600 Preinstallation Environment is running...
+echo GoAniWayneNathaaniel2600 Preinstallation Environment is running...
 echo:
 PING -n 3 127.0.0.1>nul
 cls
@@ -74,7 +74,7 @@ cls
 
 echo:
 echo GoAniWayneNathaniel2600 Preinstallation Environment
-echo build 10.0.22616.1 (zn_release)
+echo build 10.0.26052.1000 (ge_release)
 echo:
 echo Choose Options below.
 echo:

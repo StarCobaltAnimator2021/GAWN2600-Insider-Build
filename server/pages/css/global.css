@@ -5,7 +5,7 @@ this css has the general header/footer layout stuff
 @import url("./modern-normalize.css");
 
 :root {
-	--primary: #FFC73C;
+	--primary: #ff009b;
 	--transition: .15s ease;
 }
 
@@ -13,14 +13,14 @@ this css has the general header/footer layout stuff
 general
 **/
 html, body {
-	background: #ECE9D8;
-	color: ##4F80F6;
+	background: #eee;
+	color: #505969;
 	font: 13px/1.5 "Segoe UI Variable";
 	width: 100%;
 	height: 100%;
 }
 html.dark, html.dark>body {
-	background: #000;
+	background: #222;
 	color: #eee;
 }
 body {
@@ -40,8 +40,8 @@ header
 **/
 header {
 	/* style */
-	background: #0055E5;
-	color: #4479F5;
+	background: linear-gradient(90deg, rgba(0,255,255,1) 0%, rgba(255,182,255,1) 100%);
+	color: #fff;
 	text-align: center;
 	/* layout */
 	padding-bottom: 13px;
@@ -68,12 +68,12 @@ html.dark header {
 /* buttons */
 .btn {
 	/* style */
-	background: #2166ED;
+	background: linear-gradient(90deg, rgba(29,156,250,1) 0%, rgba(23,238,255,1) 100%);
 	border: none;
 	font-size: 14px;
 	font-weight: bold;
 	text-decoration: none;
-	color: #fff;
+	color: #ffffff;
 	border-radius: 4px;
 	/* layout */
 	display: inline-block;
@@ -81,16 +81,28 @@ html.dark header {
 	margin: 9px 5px;
 }
 .btn:hover {
-	background: #0847CA
+	background: linear-gradient(90deg, rgba(29,156,250,1) 0%, rgba(23,238,255,1) 100%);
 	cursor: pointer;
+}
+header .btn {
+    background: #3330
+}
+header .btn:hover {
+    background: #fff4
+}
+.dark .btn {
+    background: #333;
+}
+.dark .btn:hover {
+    background: #444;
 }
 /* primary color buttons */
 .btn.btn_primary {
-	background: var(--primary);
+	background: linear-gradient(90deg, rgba(29,156,250,1) 0%, rgba(23,238,255,1) 100%);
 	width: 160px;
 }
 .btn.btn_primary:hover {
-	text-decoration: underline;
+	background: linear-gradient(90deg, rgba(29,156,250,1) 0%, rgba(23,238,255,1) 100%);
 }
 
 
@@ -109,7 +121,7 @@ header dropdowns
 /* the dropdown itself */
 .dropdown_menu {
 	/* style */
-	background-color: #0367F3;
+	background-color: #444;
 	border-radius: 4px;
 	/* layout */
 	width: 100%;
@@ -132,8 +144,8 @@ header dropdowns
 	padding: 2px 20px;
 }
 .dropdown_menu>a:hover {
-	background: #2a2a2a;
-	color: var(--primary);
+	background: #222;
+	color: #27A0D9;
 	cursor: pointer;
 }
 /* dropdown header and separation */
@@ -170,13 +182,13 @@ html.dark .tab_nav_container .tab_navigation {
 	border-color: #282828;
 }
 .tab {
-	background: #ECE9D8;
-    border-right: 1px solid #cfcfcf;
+	background: #eee;
+    border-right: 1px solid #eee;
     box-shadow:
-		inset 0 1px #ECE9D8,
-		inset 0 -1px #FFFFFF,
+		inset 0 1px #eee,
+		inset 0 -1px #eee,
 		inset 0 -6px 6px -5px #0002;
-    color: #000000;
+    color: #505e73;
     padding: 7px;
     text-align: center;
     text-decoration: none;
@@ -190,8 +202,8 @@ html.dark .tab_nav_container .tab_navigation {
 }
 .tab.selected {
     background: #fff;
-    color: #FFFF00;
-    box-shadow: 0 -5px #FFFF00;
+    color: #00a5ff;
+    box-shadow: 0 -5px #00a5ff;
 }
 html.dark .tab:not(.selected) {
 	background: #242424;
@@ -205,7 +217,7 @@ html.dark .tab.selected {
 }
 .tab:hover,
 html.dark .tab:hover {
-	color: #FFFF00;
+	color: #0099ff;
 }
 /* pages */
 .tab_page {
@@ -216,7 +228,7 @@ html.dark .tab:hover {
 footer
 **/
 footer {
-	background: #ff0066;
+	background: linear-gradient(90deg, rgba(0,255,255,1) 0%, rgba(255,182,255,1) 100%);
 	margin-top: auto; /* footer at the foot */
 	display: flex;
 	justify-content: space-between;
@@ -225,7 +237,7 @@ footer {
 footer nav { margin:5px 10px}
 /* links */
 footer a {
-	color: #ffff00;
+	color: #ffffff;
 	text-decoration:none;
 	margin: 0 10px;
 	font-weight: bold;
