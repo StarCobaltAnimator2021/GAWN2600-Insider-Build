@@ -1,12 +1,14 @@
 @Echo off
 title GoAniWayneNathaniel2600 Version Checker
-echo GAWN2600 Pro Insider Preview
-echo Version 25H2 (Build 26040.rs_prerelease.250210-0816, 26040.1000)
-echo Full buildtag: 26040.1000.rs_prerelease.250210-0816
+echo GAWN2600 Pro
+echo Version 25H2 (Build 26052.ge_release.250226-0730, 26052.1000)
+echo Full buildtag: 26052.1000.ge_release.250226-0730
 echo:
 echo New Features and Changes
 echo:
-echo The Version displaying number has been changed from "2.1.1" to "25H2"
+echo 1. Added New Assets
+echo:
+echo 2. The Exclusive Custom Poses, which were introduced since build 22533, has been removed.
 echo:
 pause
 cls

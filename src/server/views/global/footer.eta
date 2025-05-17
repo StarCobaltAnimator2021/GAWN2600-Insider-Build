@@ -2,10 +2,8 @@
 	<nav id="foot-left">
 		<a>Version <%= it.env.WRAPPER_VER %></a>
 		<a href="/settings">Settings</a>
-		<a href="https://www.youtube.com/@GoAniWayneNathaniel2600">Our YouTube Channel</a>
-		<a href="https://sites.google.com/view/goaniwaynenathaniel2600/home">GoAniWayneNathaniel2600 Website </a>
 	</nav>
 
 	<nav id="foot-right"></nav>
-		<a><%= "Evaluation copy. Build 26040.rs_prerelease.250210-0816" %></a>
+		<a><%= "Evaluation copy. Build 26052.ge_release.250226-0730" %></a>
 </footer>
