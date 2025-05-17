@@ -1,10 +1,10 @@
 @Echo off
 title GoAniWayneNathaniel2600 Version Checker
 echo GAWN2600 Pro
-echo Version 25H2 (Build 26052.ge_release.250226-0730, 26052.1000)
-echo Full buildtag: 26052.1000.ge_release.250226-0730
+echo Version 25H2 (Build 26052.ge_release.250226-0730, 26052.1100)
+echo Full buildtag: 26052.1100.ge_release_svc_prod1.250517-1055
 echo:
-echo New Features and Changes
+echo New Features and Changes (from buld 26052.1000)
 echo:
 echo 1. Added New Assets
 echo:
