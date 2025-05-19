@@ -68,7 +68,7 @@ switch (process.platform) {
 		break;
 	}
 	default: {
-		throw new Error("You are running GoAniWayneNathaniel2600 on an unsupported platform.");
+		throw new Error("You are running Spartan Flash Animate on an unsupported platform.");
 	}
 }
 app.commandLine.appendSwitch("ppapi-flash-path", path.join(__dirname, pluginName));
@@ -77,9 +77,9 @@ app.commandLine.appendSwitch("ppapi-flash-version", "32.0.0.371");
 let mainWindow;
 const createWindow = () => {
 	mainWindow = new BrowserWindow({
-		width: 1200,
-		height: 700,
-		title: "GoAniWayneNathaniel2600",
+		width: 1280,
+		height: 720,
+		title: "Spartan Flash Animate",
 		icon: path.join(__dirname, "../server/favicon.ico"),
 		webPreferences: {
 			plugins: true,
@@ -119,15 +119,15 @@ const createWindow = () => {
 			role: "help",
 			submenu: [
 				{
-					label: "Discord Server",
+					label: "YouTube Channel",
 					click: async () => {
-						await shell.openExternal("https://discord.gg/Kf7BzSw");
+						await shell.openExternal("https://www.youtube.com/@SpartanFlashAnimate");
 					}
 				},
 				{
-					label: "GitHub",
+					label: "SFA Website",
 					click: async () => {
-						await shell.openExternal("https://github.com/Wrapper-Offline/Wrapper-Offline");
+						await shell.openExternal("https://sites.google.com/view/spartanflashanim23nathandavid/home");
 					}
 				}
 			]

@@ -2,8 +2,9 @@
 	<nav id="foot-left">
 		<a>Version <%= it.env.WRAPPER_VER %></a>
 		<a href="/settings">Settings</a>
+		<a><%= "Kayden David Srv AI" %></a>
 	</nav>
 
 	<nav id="foot-right"></nav>
-		<a><%= "Evaluation copy. Build 26052.ge_release.250226-0730" %></a>
+		<a><%= "Evaluation copy. Build 26058.ge_release.250517-1831" %></a>
 </footer>
