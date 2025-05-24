@@ -1,8 +1,8 @@
 @Echo off
 title Spartan Flash Animate Version Checker
 echo GAWN2600 Pro
-echo Version 25H2 (Build 26058.ge_release.250517-1831, 26058.1100)
-echo Full buildtag: 26058.1100.ge_release_svc_prod1.250519-0757
+echo Version 25H2 (Build 26058.ge_release.250517-1831, 26058.1300)
+echo Full buildtag: 26058.1300.ge_release_svc_prod2.250524-1755
 echo:
 echo New Features and Changes
 echo:
