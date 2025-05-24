@@ -10,7 +10,7 @@ module.exports = class Settings {
 		DEFAULT_WATERMARK: "twoLines",
 		IS_WIDE: "1",
 		SAVE_LOG_FILES: false,
-		HIDE_NAVBAR: true,
+		HIDE_NAVBAR: false,
 	};
 	/** @type {Settings} */
 	static #instance;
@@ -25,7 +25,7 @@ module.exports = class Settings {
 			try {
 				this.#refresh();
 			} catch (e) {
-				throw new Error("Something is extremely awfully horribly terribly preposterously crazily insanely madly wrong. You may be in a read-only system/admin folder.");
+				throw new Error("Something went wrong. You may be in a read-only system/admin folder.");
 			}
 		}
 		this.#refresh();
