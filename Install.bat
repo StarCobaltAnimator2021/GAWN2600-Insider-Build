@@ -74,7 +74,7 @@ cls
 
 echo:
 echo Preinstallation Environment
-echo build 10.0.26085.1 (ge_release)
+echo build 10.0.26090.1 (ge_release)
 echo:
 echo Choose Options below.
 echo:
