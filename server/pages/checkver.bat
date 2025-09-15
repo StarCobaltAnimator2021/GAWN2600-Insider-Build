@@ -17,6 +17,8 @@ echo 4. Replaced one of the pictures inside "pages" folder.
 echo:
 echo 5. The UI were reverted back to the ones first seen in build 26058.1000 due to Summer Season is nearing the end.
 echo:
+echo 6. The version displaying number has been changed from "25H2" to "26H1"
+echo:
 pause
 cls
 echo Bug Fixes.
