@@ -5,7 +5,7 @@ this css has the general header/footer layout stuff
 @import url("./modern-normalize.css");
 
 :root {
-	--primary: #00bfff;
+	--primary: #ff009b;
 	--transition: .15s ease;
 }
 
@@ -40,7 +40,7 @@ header
 **/
 header {
 	/* style */
-	background: linear-gradient(90deg, rgba(112,197,255,1) 0%, rgba(255,252,86,1) 100%);
+	background: linear-gradient(90deg, rgba(247,243,3,1) 0%, rgba(255,18,22,1) 100%);
 	color: #fff;
 	text-align: center;
 	/* layout */
@@ -68,7 +68,7 @@ html.dark header {
 /* buttons */
 .btn {
 	/* style */
-	background: linear-gradient(90deg, rgba(167,255,252,1) 0%, rgba(167,219,255,1) 100%);
+	background: linear-gradient(90deg, rgba(255,18,22,1) 0%, rgba(255,17,136,1) 100%);
 	border: none;
 	font-size: 14px;
 	font-weight: bold;
@@ -81,7 +81,7 @@ html.dark header {
 	margin: 9px 5px;
 }
 .btn:hover {
-	background: linear-gradient(90deg, rgba(167,255,252,1) 0%, rgba(167,219,255,1) 100%);
+	background: linear-gradient(90deg, rgba(255,18,22,1) 0%, rgba(255,17,136,1) 100%);
 	cursor: pointer;
 }
 header .btn {
@@ -98,11 +98,11 @@ header .btn:hover {
 }
 /* primary color buttons */
 .btn.btn_primary {
-	background: linear-gradient(90deg, rgba(167,255,252,1) 0%, rgba(167,219,255,1) 100%);
+	background: linear-gradient(90deg, rgba(255,18,22,1) 0%, rgba(255,17,136,1) 100%);
 	width: 160px;
 }
 .btn.btn_primary:hover {
-	background: linear-gradient(90deg, rgba(167,255,252,1) 0%, rgba(167,219,255,1) 100%);
+	background: linear-gradient(90deg, rgba(255,18,22,1) 0%, rgba(255,17,136,1) 100%);
 }
 
 
@@ -202,8 +202,8 @@ html.dark .tab_nav_container .tab_navigation {
 }
 .tab.selected {
     background: #fff;
-    color: #aaefff;
-    box-shadow: 0 -5px #aaefff;
+    color: #ff1188;
+    box-shadow: 0 -5px #ff1188;
 }
 html.dark .tab:not(.selected) {
 	background: #242424;
@@ -217,7 +217,7 @@ html.dark .tab.selected {
 }
 .tab:hover,
 html.dark .tab:hover {
-	color: #7ce7ff;
+	color: #0099ff;
 }
 /* pages */
 .tab_page {
@@ -228,7 +228,7 @@ html.dark .tab:hover {
 footer
 **/
 footer {
-	background: linear-gradient(90deg, rgba(112,197,255,1) 0%, rgba(255,252,86,1) 100%);
+	background: linear-gradient(90deg, rgba(247,243,3,1) 0%, rgba(255,18,22,1) 100%);
 	margin-top: auto; /* footer at the foot */
 	display: flex;
 	justify-content: space-between;
