@@ -1,23 +1,22 @@
 @Echo off
 title Spartan Flash Animate Version Checker
-echo GAWN2600 Pro
-echo Version 26H1 (26200.2007)
-echo Full buildtag: 26200.2007.ge_release_alpha.250806-2048
-echo Experience: SFA Feature Experience Pack 1000.26100.93.0
+echo SFA ND23 Pro
+echo Version 26H1 (26200.4245)
+echo Full buildtag: 26200.4245.ge_release_alpha.250917-1735
+echo Experience: SFA Feature Experience Pack 1000.26100.102.0
+echo:
+echo For New Features and Changes listed, press any key...
+echo:
+pause
+cls
 echo:
 echo New Features and Changes
 echo:
-echo 1. Re-Added the Secret DirectX Diagnostic Tool after it was removed in Service Pack 6.
+echo 1. Separate Adobe Flash Player Program are no longer required.
 echo:
-echo 2. An new "Experience" section has been added to checkver.bat
+echo 2. The "Cartoon Classics" and "Stick Figure" theme has been removed from Theme Selection List Inside "Make a Video" page due to missing icon files.
 echo:
-echo 3. The Official Links has been re-added into the "pages" folder after it was temporarily removed.
-echo:
-echo 4. Replaced one of the pictures inside "pages" folder.
-echo:
-echo 5. The UI were reverted back to the ones first seen in build 26058.1000 due to Summer Season is nearing the end.
-echo:
-echo 6. The version displaying number has been changed from "25H2" to "26H1"
+echo 3. The remaining old GAWN2600 branding has been completely replaced with the new branding, as a result, Spartan Flash Animate in short terms will now be "SFA ND23"
 echo:
 pause
 cls

@@ -74,7 +74,7 @@ cls
 
 echo:
 echo Preinstallation Environment
-echo build 10.0.26100.1150 (ge_release)
+echo build 10.0.26100.2033 (ge_release)
 echo:
 echo Choose Options below.
 echo:
@@ -95,7 +95,7 @@ if "!choice!"=="0" goto exit
 if "!choice!"=="1" goto installnodemodules
 if "!choice!"=="2" goto audit
 if "!choice!"=="3" goto installandaudit
-if "!choice!"=="4" goto exitandstartgawn2600
+if "!choice!"=="4" goto exitandstartsfand23
 if "!choice!"=="cls" goto cls
 if "!choice!"=="clr" goto cls
 if "!choice!"=="clear" goto cls
@@ -176,7 +176,7 @@ echo The Preinstallation Environment has been closed.
 PING -n 10 127.0.0.1>nul
 exit
 
-:exitandstartgawn2600
+:exitandstartsfand23
 cls
 echo:
 echo Exiting Preinstallation Environment...

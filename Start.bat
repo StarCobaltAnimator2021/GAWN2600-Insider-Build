@@ -1,6 +1,6 @@
 @echo off
 echo:
-echo GAWN2600 Pro
+echo SFA ND23 Pro
 echo:
 echo Spartan Flash Animate Will now start
 echo:
