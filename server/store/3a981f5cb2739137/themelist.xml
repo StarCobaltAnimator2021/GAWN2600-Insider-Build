@@ -7,8 +7,6 @@
 	<theme id="ninjaanime" name="Ninja Anime" cc_theme_id="ninjaanime" col="1"/>
 
 	<theme id="business" name="Business Friendly" cc_theme_id="business" col="2"/>
-	<theme id="retro" name="Cartoon Classics" col="2"/>
-	<theme id="stick" name="Stick Figure" col="2"/>
 	<theme id="spacecitizen" name="Space Citizens" cc_theme_id="spacecitizen" col="2"/>
 
 	<theme id="action" name="Lil' Peepz" cc_theme_id="cc2" col="3"/>
