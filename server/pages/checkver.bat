@@ -1,17 +1,23 @@
 @Echo off
 title Spartan Flash Animate Version Checker
-echo GAWN2600 Pro
-echo Version 25H2 (Build 26100.ge_release.250613-1521, 26100.560)
-echo Full buildtag: 26100.560.ge_release_svc_prod2.250616-0400
+echo SFA ND23 Pro
+echo Version 25H2 (26120.4351)
+echo Full buildtag: 26120.4351.ge_release_svc_countryside_prod1.250919-1617
+echo Experience: SFA Feature Experience Pack 1000.26100.119.0
+echo:
+echo For New Features and Changes listed, press any key...
+echo:
+pause
+cls
 echo:
 echo New Features and Changes
 echo:
-echo No new features were included onto this build.
+echo The file "COMPAT_STUB" and "gawn2600.cert", which were removed since Service Pack 6, has been added back.
 echo:
 pause
 cls
 echo Bug Fixes.
 echo:
-echo No bugfixes were included in this build.
+echo No bugfixes were included.
 echo:
 pause
