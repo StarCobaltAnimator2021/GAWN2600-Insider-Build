@@ -1,0 +1,36 @@
+====================== GOANIWAYNENATHANIEL2600 COMPATIBILITY TABLE MAPPER==========================
+VERSION : 10.0.26200.5225
+FULL VERSION : 10.0.26200.5225.6.17.25.ge_release_alpha.250925-1324
+INF DATE : 9/25/2025
+
+Legend : 
+Y : Compatible and working
+N : Not compatible and may not work properly or at all
+
+WARNING !!!! : 
+
+DO NOT MODIFY THIS FILE. IT MIGHT SOME FUNCTIONS MAY NOT WORK PROPERLY OR IT WILL BREAK COMPLETELY
+
+===============================================COMPATIBLITY VERSIONS================================
+
+=================== Wrapper Offline 1.0.0 : N ======================================================
+=================== Wrapper Offline 1.2.3 : Y ======================================================
+=================== Wrapper Offline 2.0.0 : Y ======================================================
+=================== Wrapper Offline Future releases : Y ============================================
+================== GoAnimate 2016 : N ==============================================================
+================== GoAniWayneNathaniel2600 Beta build 2421 : Y =====================================
+================== GoAniWayneNathaniel2600 RTM build 2600.3790 : Y =================================
+================== GoAniWayneNathaniel2600 Service Pack 1 build 2600.3790 sp1_srv22 : Y ============
+================== GoAniWayneNathaniel2600 Service Pack 2 build 2600.3790 sp2 : Y ==================
+================== GoAniWayneNathaniel2600 Service Pack Bobcat (SP3 Beta) build 2600.3790 : Y ======
+================== GoAniWayneNathaniel2600 Service Pack 3 (RTM) : build 2600.3790 : Y ==============
+================== GoAniWayneNathaniel2600 Service Pack Cairo X (Sp4) : build Tarzan 2600(UNREL) : Y
+================ GoAniWayneNathaniel2600 Service Pack Whistler Gold (Sp5 Beta) : build 2600.3790 : Y
+================== GoAniWayneNathaniel2600 Service Pack 5 : build 2600.3790 : Y
+================== GoAniWayneNathaniel2600 Service Pack 5 v2 : build 22000.348 : Y
+================== GoAniWayneNathaniel2600 Service Pack 6 : build 22621.2792 : Y
+================== GoAniWayneNathaniel2600 Service Pack 7 : build 26100.3476 : Y
+================== GoAniWayneNathaniel2600 Service Pack 8 : build 26200 : Y
+
+
+===============================================COMPATIBLITY VERSIONS================================

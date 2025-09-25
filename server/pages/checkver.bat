@@ -1,9 +1,9 @@
 @Echo off
 title Spartan Flash Animate Version Checker
 echo SFA ND23 Pro
-echo Version 26H1 (26200.4245)
-echo Full buildtag: 26200.4245.ge_release_alpha.250917-1735
-echo Experience: SFA Feature Experience Pack 1000.26100.102.0
+echo Version 26H1 (26200.5225)
+echo Full buildtag: 26200.5225.ge_release_alpha.250925-1324
+echo Experience: SFA Feature Experience Pack 1000.26100.119.0
 echo:
 echo For New Features and Changes listed, press any key...
 echo:
@@ -12,16 +12,14 @@ cls
 echo:
 echo New Features and Changes
 echo:
-echo 1. Separate Adobe Flash Player Program are no longer required.
+echo 1. Updated The Secret DirectX Diagnostic Tool Version. (5.3.2600.5512 -> 10.0.26100.5074)
 echo:
-echo 2. The "Cartoon Classics" and "Stick Figure" theme has been removed from Theme Selection List Inside "Make a Video" page due to missing icon files.
-echo:
-echo 3. The remaining old GAWN2600 branding has been completely replaced with the new branding, as a result, Spartan Flash Animate in short terms will now be "SFA ND23"
+echo 2. The file "COMPAT_STUB" and "gawn2600.cert", which were removed since Service Pack 6, has been added back.
 echo:
 pause
 cls
 echo Bug Fixes.
 echo:
-echo No bugfixes were included in this build.
+echo Addressed an issue where the color hovering on between Videos and Starters Tab in Video List page are blue instead of accent matching UI color.
 echo:
 pause

@@ -26,13 +26,13 @@ module.exports = class Database {
 	constructor() {
 		// create the file if it doesn't exist
 		if (!fs.existsSync(this.#path)) {
-			console.error("Database doesn't exist! Creating...");
+			console.error("Database file not detected, Creating...");
 			this.#save(this.#json);
 
 			try {
 				this.#refresh();
 			} catch (e) {
-				throw new Error("Something is extremely awfully horribly terribly preposterously crazily insanely madly wrong. You may be in a read-only system/admin folder.");
+				throw new Error("Something went wrong. You may be in a read-only system/admin folder.");
 			}
 		}
 		this.#refresh();
