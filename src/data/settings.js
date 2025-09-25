@@ -19,7 +19,7 @@ module.exports = class Settings {
 		const defaultVals = this.#json;
 		// create the file if it doesn't exist
 		if (!fs.existsSync(this.#path)) {
-			console.error("Settings doesn't exist! Creating...");
+			console.error("Settings file not found, Creating...");
 			this.#save(defaultVals);
 
 			try {

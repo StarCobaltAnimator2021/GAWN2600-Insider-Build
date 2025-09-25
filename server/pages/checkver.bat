@@ -1,11 +1,11 @@
 @Echo off
 title Spartan Flash Animate Version Checker
 echo SFA ND23 Pro Insider Preview
-echo Version 25H2 (26225.5000)
-echo Full buildtag: 26225.5000.ge_prerelease.250917-2140
-echo Experience: SFA Feature Experience Pack 1000.26100.102.0
+echo Version 25H2 (26231.5001)
+echo Full buildtag: 26231.5001.ge_prerelease.250919-1512
+echo Experience: SFA Feature Experience Pack 1000.26100.119.0
 echo:
-echo Evaluation copy. Expires 10/31/2025
+echo Evaluation copy. Expires 8/14/2026
 echo:
 echo:
 echo For New Features and Changes listed, press any key...
@@ -15,26 +15,18 @@ cls
 echo:
 echo New Features and Changes
 echo:
-echo 1. Re-Added the Secret DirectX Diagnostic Tool after it was removed in Service Pack 6.
+echo 1. The Timebomb has been extended from October 31, 2025 to August 14, 2026.
 echo:
-echo 2. An new "Experience" section has been added to checkver.bat, along with the Timebomb section to indicate which date that specific build expires.
+echo 2. Updated The Secret DirectX Diagnostic Tool Version. (5.3.2600.5512 -> 10.0.26100.5074)
 echo:
-echo 3. The Official Links has been re-added into the "pages" folder after it was temporarily removed.
-echo:
-echo 4. Replaced one of the pictures inside "pages" folder.
-echo:
-echo 5. The UI were reverted back to the ones first seen in build 26058.1000 due to Summer Season is nearing the end.
-echo:
-echo 6. Separate Flash Player Program are no longer required.
-echo:
-echo 7. The "Cartoon Classics" and "Stick Figure" theme has been removed from Theme Selection List Inside "Make a Video" page due to missing icon files.
-echo:
-echo 8. The remaining old GAWN2600 branding has been completely replaced with the new branding, as a result, Spartan Flash Animate in short terms will now be "SFA ND23"
+echo 3. The file "COMPAT_STUB" and "gawn2600.cert", which were removed since Service Pack 6, has been added back.
 echo:
 pause
 cls
 echo Bug Fixes.
 echo:
-echo No bugfixes were included in this build.
+echo 1. Addressed an issue where the color hovering on between Videos and Starters Tab in Video List page are blue instead of accent matching UI color.
+echo:
+echo 2. Mitigated an issue where the complie date on the footer wasn't matching with the actual full buildtag and actual complie date in build 26225.
 echo:
 pause
